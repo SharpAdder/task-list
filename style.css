@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-logo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(245, 222, 192, 0.671);
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
+
+/* label, input field & submit btn */
+.input-group {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* label style */
+.input-label {
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  /* margin-right: 0.5%; */
+  font-size: 1em;
+  padding: 1%;
+  background-color: #dddddd;
+}
+
+#newTask {
+  width: 40%;
+}
+
+/* input field  */
+#newTask::placeholder {
+  color: brown;
+}
+
+/* submit btn style */
+.submit-task {
+  /* margin-left: 0.5%; */
+  padding: 0.5%;
+  color: rgb(8, 1, 15);
+  background-color: rgb(245, 222, 192);
+
+  /* background-color: rgba(164, 157, 249, 0.671); */
+  border: none;
+  cursor: pointer;
+}
+
+/* submit btn hover style */
+.submit-task:hover {
+  background-color: rgba(245, 222, 192, 0.817);
+  /* background-color: rgba(164, 157, 249, 0.671); */
+  border: none;
+}
+
+/* del btn */
+#btnClear {
+  position: relative;
+  width: 30%;
+  height: 30px;
+  margin-top: 3%;
+  margin-left: 35%;
+  padding: 0.5%;
+  background-color: rgb(164, 241, 214);
+  border-radius: 5%;
+  border: none;
+}
+
+#btnClear:hover {
+  background-color: rgba(194, 241, 225, 0.847);
+  /* box-shadow: 5px 5px 10px 5px #929191; */
+  cursor: pointer;
+}
+
+/* entered tasks class created in js*/
+.list-group-item {
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(170, 167, 167, 0.781);
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+}
+
+/* message alert - enter a task */
+#message {
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+
+
